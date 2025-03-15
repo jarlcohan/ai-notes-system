@@ -1,0 +1,38 @@
+{
+  "name": "ai-notes-system",
+  "version": "1.0.0",
+  "description": "A system for AI agents to create, organize and retrieve notes",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/ai-notes-system.git"
+  },
+  "keywords": [
+    "ai",
+    "notes",
+    "api",
+    "markdown"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/ai-notes-system/issues"
+  },
+  "homepage": "https://github.com/yourusername/ai-notes-system#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "js-yaml": "^4.1.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  }
+}
